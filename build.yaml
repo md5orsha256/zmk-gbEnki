@@ -1,6 +1,6 @@
 ---
 include:
-  - board: nice_nano/nrf52840/zmk
+  - board: nice_nano_v2
     shield: gbEnki_left
-  - board: nice_nano/nrf52840/zmk
+  - board: nice_nano_v2
     shield: gbEnki_right
