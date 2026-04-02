@@ -22,7 +22,7 @@
 
 &mt {
     quick_tap_ms = <200>;
-    tapping-term-ms = <250>;
+    tapping-term-ms = <300>;
     flavor = "tap-preferred";
 };
 
@@ -75,7 +75,7 @@
 &mt LG(LC(Q)) GRAVE  &kp Q       &kp W           &kp E        &kp R             &kp T        &kp Y          &kp U              &kp I                &kp O            &kp P               &mt RIGHT_BRACKET LBKT
 &mt LCTRL CAPSLOCK   &mt LWIN A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G        &kp H          &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RWIN SEMICOLON  &mt RCTRL SQT
 &mt LALT MINUS       &lt ADJ Z   &kp X           &kp C        &kp V             &kp B        &kp N          &kp M              &kp COMMA            &kp DOT          &lt ADJ SLASH       &mt RALT BACKSLASH
-                                                 &lt MED ESC  &lt NAV SPACE     &lt F TAB    &lt SYM ENTER  &lt NUM BACKSPACE  &lt ADJ DELETE
+                                                 &lt MED ESC  &lt NAV SPACE     &lt 1 TAB    &lt SYM ENTER  &lt NUM BACKSPACE  &lt ADJ DELETE
             >;
         };
 
@@ -90,10 +90,10 @@
 
         navigation {
             bindings = <
-&none  &none     &none         &none      &none           &none     &kp RS(DEL)  &none     &none          &none        &none    &none
-&none  &kp LWIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none     &kp LEFT     &kp DOWN  &kp UP_ARROW   &kp RIGHT    &none    &none
-&none  &none     &none         &none      &none           &none     &kp INS      &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none
-                               &trans     &trans          &trans    &trans       &trans    &trans
+&none  &none     &none         &none      &none           &none     &kp RS(DEL)  &none          &none         &none      &none  &none
+&none  &kp LWIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none     &kp LEFT     &kp DOWN       &kp UP_ARROW  &kp RIGHT  &none  &none
+&none  &none     &none         &none      &none           &none     &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &none  &none
+                               &trans     &trans          &trans    &trans       &trans         &trans
             >;
         };
 
